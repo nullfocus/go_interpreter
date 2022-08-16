@@ -1,0 +1,632 @@
+INFO: 2022/08/13 12:02:40.045211 logging initalized
+INFO: 2022/08/13 12:02:40.045362 
+INFO: 2022/08/13 12:02:40.045390 Parsing program:(+ 1 2)
+INFO: 2022/08/13 12:02:40.045410 Tokenizing...
+INFO: 2022/08/13 12:02:40.045440 Reading Expressions...
+INFO: 2022/08/13 12:02:40.045458 Logging...
+INFO: 2022/08/13 12:02:40.045484 function:+
+INFO: 2022/08/13 12:02:40.045502   literal:1
+INFO: 2022/08/13 12:02:40.045519   literal:2
+INFO: 2022/08/13 12:02:40.045534 Evaluating...
+INFO: 2022/08/13 12:02:40.045548 function: +
+INFO: 2022/08/13 12:02:40.045563   literal:1
+INFO: 2022/08/13 12:02:40.045577   literal:2
+INFO: 2022/08/13 12:02:40.045591  val:3
+INFO: 2022/08/13 12:02:40.045604 val: 3
+INFO: 2022/08/13 12:02:40.045623 
+INFO: 2022/08/13 12:02:40.045640 Parsing program:(- 4 3)
+INFO: 2022/08/13 12:02:40.045655 Tokenizing...
+INFO: 2022/08/13 12:02:40.045668 Reading Expressions...
+INFO: 2022/08/13 12:02:40.045680 Logging...
+INFO: 2022/08/13 12:02:40.045691 function:-
+INFO: 2022/08/13 12:02:40.045702   literal:4
+INFO: 2022/08/13 12:02:40.045715   literal:3
+INFO: 2022/08/13 12:02:40.045730 Evaluating...
+INFO: 2022/08/13 12:02:40.045741 function: -
+INFO: 2022/08/13 12:02:40.045750 subtracting
+INFO: 2022/08/13 12:02:40.045760   literal:4
+INFO: 2022/08/13 12:02:40.045772   literal:3
+INFO: 2022/08/13 12:02:40.045785 val: 1
+INFO: 2022/08/13 12:02:40.045797 
+INFO: 2022/08/13 12:02:40.045812 Parsing program:(+ 5 (- 6 13))
+INFO: 2022/08/13 12:02:40.045821 Tokenizing...
+INFO: 2022/08/13 12:02:40.045847 Reading Expressions...
+INFO: 2022/08/13 12:02:40.045864 Logging...
+INFO: 2022/08/13 12:02:40.045882 function:+
+INFO: 2022/08/13 12:02:40.045898   literal:5
+INFO: 2022/08/13 12:02:40.045909   function:-
+INFO: 2022/08/13 12:02:40.045919     literal:6
+INFO: 2022/08/13 12:02:40.045934     literal:13
+INFO: 2022/08/13 12:02:40.045951 Evaluating...
+INFO: 2022/08/13 12:02:40.045967 function: +
+INFO: 2022/08/13 12:02:40.045983   literal:5
+INFO: 2022/08/13 12:02:40.045998   function: -
+INFO: 2022/08/13 12:02:40.046013   subtracting
+INFO: 2022/08/13 12:02:40.046029     literal:6
+INFO: 2022/08/13 12:02:40.046044     literal:13
+INFO: 2022/08/13 12:02:40.046061  val:-2
+INFO: 2022/08/13 12:02:40.046076 val: -2
+INFO: 2022/08/13 12:02:40.046091 
+INFO: 2022/08/13 12:02:40.046106 Parsing program:(((
+INFO: 2022/08/13 12:02:40.046121 Tokenizing...
+INFO: 2022/08/13 12:02:40.046143 Reading Expressions...
+INFO: 2022/08/13 12:02:40.046157 Logging...
+INFO: 2022/08/13 12:02:40.046167 Evaluating...
+INFO: 2022/08/13 12:02:40.046177 node is nil
+INFO: 2022/08/13 12:02:40.046189 val: nil
+INFO: 2022/08/13 12:02:40.046199 
+INFO: 2022/08/13 12:02:40.046208 Parsing program:)))
+INFO: 2022/08/13 12:02:40.046218 Tokenizing...
+INFO: 2022/08/13 12:02:40.046230 Reading Expressions...
+INFO: 2022/08/13 12:02:40.046240 Logging...
+INFO: 2022/08/13 12:02:40.046250 Evaluating...
+INFO: 2022/08/13 12:02:40.046259 node is nil
+INFO: 2022/08/13 12:02:40.046269 val: nil
+INFO: 2022/08/13 12:02:40.046279 
+INFO: 2022/08/13 12:02:40.046288 Parsing program:(((+) 4)  3)
+INFO: 2022/08/13 12:02:40.046298 Tokenizing...
+INFO: 2022/08/13 12:02:40.046311 Reading Expressions...
+INFO: 2022/08/13 12:02:40.046325 Logging...
+INFO: 2022/08/13 12:02:40.046336 function:+
+INFO: 2022/08/13 12:02:40.046346   literal:4
+INFO: 2022/08/13 12:02:40.046357   literal:3
+INFO: 2022/08/13 12:02:40.046367 Evaluating...
+INFO: 2022/08/13 12:02:40.046377 function: +
+INFO: 2022/08/13 12:02:40.046389   literal:4
+INFO: 2022/08/13 12:02:40.046399   literal:3
+INFO: 2022/08/13 12:02:40.046409  val:7
+INFO: 2022/08/13 12:02:40.046419 val: 7
+INFO: 2022/08/13 12:02:40.046428 
+INFO: 2022/08/13 12:02:40.046438 Parsing program:(+ (+ 1 2) (- 3 2))
+INFO: 2022/08/13 12:02:40.046459 Tokenizing...
+INFO: 2022/08/13 12:02:40.046480 Reading Expressions...
+INFO: 2022/08/13 12:02:40.046495 Logging...
+INFO: 2022/08/13 12:02:40.046505 function:+
+INFO: 2022/08/13 12:02:40.046516   function:+
+INFO: 2022/08/13 12:02:40.046526     literal:1
+INFO: 2022/08/13 12:02:40.046537     literal:2
+INFO: 2022/08/13 12:02:40.046547   function:-
+INFO: 2022/08/13 12:02:40.046558     literal:3
+INFO: 2022/08/13 12:02:40.046582     literal:2
+INFO: 2022/08/13 12:02:40.046592 Evaluating...
+INFO: 2022/08/13 12:02:40.046602 function: +
+INFO: 2022/08/13 12:02:40.046613   function: +
+INFO: 2022/08/13 12:02:40.046623     literal:1
+INFO: 2022/08/13 12:02:40.046633     literal:2
+INFO: 2022/08/13 12:02:40.046643    val:3
+INFO: 2022/08/13 12:02:40.046653   function: -
+INFO: 2022/08/13 12:02:40.046664   subtracting
+INFO: 2022/08/13 12:02:40.046674     literal:3
+INFO: 2022/08/13 12:02:40.046684     literal:2
+INFO: 2022/08/13 12:02:40.046694  val:4
+INFO: 2022/08/13 12:02:40.046704 val: 4
+INFO: 2022/08/13 12:02:40.046714 
+INFO: 2022/08/13 12:02:40.046726 Parsing program:(first 1 2 3 4 5)
+INFO: 2022/08/13 12:02:40.046736 Tokenizing...
+INFO: 2022/08/13 12:02:40.046748 Reading Expressions...
+INFO: 2022/08/13 12:02:40.046761 Logging...
+INFO: 2022/08/13 12:02:40.046773 function:first
+INFO: 2022/08/13 12:02:40.046784   literal:1
+INFO: 2022/08/13 12:02:40.046794   literal:2
+INFO: 2022/08/13 12:02:40.046804   literal:3
+INFO: 2022/08/13 12:02:40.046814   literal:4
+INFO: 2022/08/13 12:02:40.046825   literal:5
+INFO: 2022/08/13 12:02:40.046836 Evaluating...
+INFO: 2022/08/13 12:02:40.046847 function: first
+INFO: 2022/08/13 12:02:40.046857 first'ing
+INFO: 2022/08/13 12:02:40.046867 val: 1
+INFO: 2022/08/13 12:02:40.046877 
+INFO: 2022/08/13 12:02:40.046886 Parsing program:(rest 1 2 3 4 5)
+INFO: 2022/08/13 12:02:40.046896 Tokenizing...
+INFO: 2022/08/13 12:02:40.046907 Reading Expressions...
+INFO: 2022/08/13 12:02:40.046919 Logging...
+INFO: 2022/08/13 12:02:40.046929 function:rest
+INFO: 2022/08/13 12:02:40.046941   literal:1
+INFO: 2022/08/13 12:02:40.046951   literal:2
+INFO: 2022/08/13 12:02:40.046961   literal:3
+INFO: 2022/08/13 12:02:40.046971   literal:4
+INFO: 2022/08/13 12:02:40.046982   literal:5
+INFO: 2022/08/13 12:02:40.046992 Evaluating...
+INFO: 2022/08/13 12:02:40.047001 function: rest
+INFO: 2022/08/13 12:02:40.047013 rest'ing[2, 3, 4, 5]
+INFO: 2022/08/13 12:02:40.047024 val: list
+INFO: 2022/08/13 12:02:40.047034 
+INFO: 2022/08/13 12:02:40.047048 Parsing program:(eq 1 1)
+INFO: 2022/08/13 12:02:40.047059 Tokenizing...
+INFO: 2022/08/13 12:02:40.047071 Reading Expressions...
+INFO: 2022/08/13 12:02:40.047090 Logging...
+INFO: 2022/08/13 12:02:40.047105 function:eq
+INFO: 2022/08/13 12:02:40.047119   literal:1
+INFO: 2022/08/13 12:02:40.047133   literal:1
+INFO: 2022/08/13 12:02:40.047146 Evaluating...
+INFO: 2022/08/13 12:02:40.047159 function: eq
+INFO: 2022/08/13 12:02:40.047172 equalizing
+INFO: 2022/08/13 12:02:40.047185   literal:1
+INFO: 2022/08/13 12:02:40.047199   literal:1
+INFO: 2022/08/13 12:02:40.047212  val:true
+INFO: 2022/08/13 12:02:40.047225 val: true
+INFO: 2022/08/13 12:02:40.047238 
+INFO: 2022/08/13 12:02:40.047251 Parsing program:(eq 1 2)
+INFO: 2022/08/13 12:02:40.047263 Tokenizing...
+INFO: 2022/08/13 12:02:40.047279 Reading Expressions...
+INFO: 2022/08/13 12:02:40.047293 Logging...
+INFO: 2022/08/13 12:02:40.047306 function:eq
+INFO: 2022/08/13 12:02:40.047320   literal:1
+INFO: 2022/08/13 12:02:40.047334   literal:2
+INFO: 2022/08/13 12:02:40.047347 Evaluating...
+INFO: 2022/08/13 12:02:40.047360 function: eq
+INFO: 2022/08/13 12:02:40.047373 equalizing
+INFO: 2022/08/13 12:02:40.047386   literal:1
+INFO: 2022/08/13 12:02:40.047399   literal:2
+INFO: 2022/08/13 12:02:40.047412  val:false
+INFO: 2022/08/13 12:02:40.047425 val: false
+INFO: 2022/08/13 12:02:40.047437 
+INFO: 2022/08/13 12:02:40.047450 Parsing program:(if (true) 1 2)
+INFO: 2022/08/13 12:02:40.047462 Tokenizing...
+INFO: 2022/08/13 12:02:40.047478 Reading Expressions...
+INFO: 2022/08/13 12:02:40.047494 Logging...
+INFO: 2022/08/13 12:02:40.047506 function:if
+INFO: 2022/08/13 12:02:40.047520   literal:true
+INFO: 2022/08/13 12:02:40.047534   literal:1
+INFO: 2022/08/13 12:02:40.047549   literal:2
+INFO: 2022/08/13 12:02:40.047562 Evaluating...
+INFO: 2022/08/13 12:02:40.047575 function: if
+INFO: 2022/08/13 12:02:40.047589   literal:true
+INFO: 2022/08/13 12:02:40.047601 testing true
+INFO: 2022/08/13 12:02:40.047614  val:if(true)
+INFO: 2022/08/13 12:02:40.047627   literal:1
+INFO: 2022/08/13 12:02:40.047651 val: 1
+INFO: 2022/08/13 12:02:40.047665 
+INFO: 2022/08/13 12:02:40.047678 Parsing program:(if (false) 1 2)
+INFO: 2022/08/13 12:02:40.047690 Tokenizing...
+INFO: 2022/08/13 12:02:40.047706 Reading Expressions...
+INFO: 2022/08/13 12:02:40.047722 Logging...
+INFO: 2022/08/13 12:02:40.047735 function:if
+INFO: 2022/08/13 12:02:40.047750   literal:false
+INFO: 2022/08/13 12:02:40.047763   literal:1
+INFO: 2022/08/13 12:02:40.047777   literal:2
+INFO: 2022/08/13 12:02:40.047789 Evaluating...
+INFO: 2022/08/13 12:02:40.047803 function: if
+INFO: 2022/08/13 12:02:40.047816   literal:false
+INFO: 2022/08/13 12:02:40.047829 testing false
+INFO: 2022/08/13 12:02:40.047841  val:if(false)
+INFO: 2022/08/13 12:02:40.047855   literal:2
+INFO: 2022/08/13 12:02:40.047867 val: 2
+INFO: 2022/08/13 12:02:40.047880 
+INFO: 2022/08/13 12:02:40.047893 Parsing program:(if (eq (- -6 7) (+ -14 1)) 55 66)
+INFO: 2022/08/13 12:02:40.047906 Tokenizing...
+INFO: 2022/08/13 12:02:40.047934 Reading Expressions...
+INFO: 2022/08/13 12:02:40.047957 Logging...
+INFO: 2022/08/13 12:02:40.047974 function:if
+INFO: 2022/08/13 12:02:40.047987   function:eq
+INFO: 2022/08/13 12:02:40.048001     function:-
+INFO: 2022/08/13 12:02:40.048015       literal:-6
+INFO: 2022/08/13 12:02:40.048029       literal:7
+INFO: 2022/08/13 12:02:40.048043     function:+
+INFO: 2022/08/13 12:02:40.048057       literal:-14
+INFO: 2022/08/13 12:02:40.048071       literal:1
+INFO: 2022/08/13 12:02:40.048085   literal:55
+INFO: 2022/08/13 12:02:40.048098   literal:66
+INFO: 2022/08/13 12:02:40.048111 Evaluating...
+INFO: 2022/08/13 12:02:40.048124 function: if
+INFO: 2022/08/13 12:02:40.048137   function: eq
+INFO: 2022/08/13 12:02:40.048150   equalizing
+INFO: 2022/08/13 12:02:40.048175     function: -
+INFO: 2022/08/13 12:02:40.048192     subtracting
+INFO: 2022/08/13 12:02:40.048206       literal:-6
+INFO: 2022/08/13 12:02:40.048220       literal:7
+INFO: 2022/08/13 12:02:40.048233     function: +
+INFO: 2022/08/13 12:02:40.048247       literal:-14
+INFO: 2022/08/13 12:02:40.048260       literal:1
+INFO: 2022/08/13 12:02:40.048273      val:-13
+INFO: 2022/08/13 12:02:40.048287    val:true
+INFO: 2022/08/13 12:02:40.048300 testing true
+INFO: 2022/08/13 12:02:40.048318  val:if(true)
+INFO: 2022/08/13 12:02:40.048330   literal:55
+INFO: 2022/08/13 12:02:40.048343 val: 55
+INFO: 2022/08/13 12:02:40.048356 
+INFO: 2022/08/13 12:02:40.048370 Parsing program:(concat 1 2 3 4 5 6)
+INFO: 2022/08/13 12:02:40.048383 Tokenizing...
+INFO: 2022/08/13 12:02:40.048399 Reading Expressions...
+INFO: 2022/08/13 12:02:40.048416 Logging...
+INFO: 2022/08/13 12:02:40.048429 function:concat
+INFO: 2022/08/13 12:02:40.048443   literal:1
+INFO: 2022/08/13 12:02:40.048457   literal:2
+INFO: 2022/08/13 12:02:40.048471   literal:3
+INFO: 2022/08/13 12:02:40.048485   literal:4
+INFO: 2022/08/13 12:02:40.048498   literal:5
+INFO: 2022/08/13 12:02:40.048512   literal:6
+INFO: 2022/08/13 12:02:40.048525 Evaluating...
+INFO: 2022/08/13 12:02:40.048538 function: concat
+INFO: 2022/08/13 12:02:40.048552 concatanating6children
+INFO: 2022/08/13 12:02:40.048565   literal:1
+INFO: 2022/08/13 12:02:40.048579   literal:2
+INFO: 2022/08/13 12:02:40.048592   literal:3
+INFO: 2022/08/13 12:02:40.048606   literal:4
+INFO: 2022/08/13 12:02:40.048619   literal:5
+INFO: 2022/08/13 12:02:40.048632   literal:6
+INFO: 2022/08/13 12:02:40.048645 val: list
+INFO: 2022/08/13 12:02:40.048657 
+INFO: 2022/08/13 12:02:40.048670 Parsing program:(concat 1 2 (rest 2 3 4 5) 6)
+INFO: 2022/08/13 12:02:40.048683 Tokenizing...
+INFO: 2022/08/13 12:02:40.048701 Reading Expressions...
+INFO: 2022/08/13 12:02:40.048718 Logging...
+INFO: 2022/08/13 12:02:40.048734 function:concat
+INFO: 2022/08/13 12:02:40.048748   literal:1
+INFO: 2022/08/13 12:02:40.048762   literal:2
+INFO: 2022/08/13 12:02:40.048776   function:rest
+INFO: 2022/08/13 12:02:40.048790     literal:2
+INFO: 2022/08/13 12:02:40.048804     literal:3
+INFO: 2022/08/13 12:02:40.048817     literal:4
+INFO: 2022/08/13 12:02:40.048831     literal:5
+INFO: 2022/08/13 12:02:40.048845   literal:6
+INFO: 2022/08/13 12:02:40.048858 Evaluating...
+INFO: 2022/08/13 12:02:40.048880 function: concat
+INFO: 2022/08/13 12:02:40.048895 concatanating4children
+INFO: 2022/08/13 12:02:40.048908   literal:1
+INFO: 2022/08/13 12:02:40.048921   literal:2
+INFO: 2022/08/13 12:02:40.048935   function: rest
+INFO: 2022/08/13 12:02:40.048951   rest'ing[3, 4, 5]
+INFO: 2022/08/13 12:02:40.048964   literal:6
+INFO: 2022/08/13 12:02:40.048977 val: list
+INFO: 2022/08/13 12:02:40.048990 
+INFO: 2022/08/13 12:02:40.049003 Parsing program:(let x 4 (+ x 1))
+INFO: 2022/08/13 12:02:40.049015 Tokenizing...
+INFO: 2022/08/13 12:02:40.049032 Reading Expressions...
+INFO: 2022/08/13 12:02:40.049069 Logging...
+INFO: 2022/08/13 12:02:40.049087 function:let
+INFO: 2022/08/13 12:02:40.049102   symbol:x
+INFO: 2022/08/13 12:02:40.049116   literal:4
+INFO: 2022/08/13 12:02:40.049130   function:+
+INFO: 2022/08/13 12:02:40.049144     symbol:x
+INFO: 2022/08/13 12:02:40.049158     literal:1
+INFO: 2022/08/13 12:02:40.049171 Evaluating...
+INFO: 2022/08/13 12:02:40.049184 function: let
+INFO: 2022/08/13 12:02:40.049200 definingx=literal4
+INFO: 2022/08/13 12:02:40.049214   function: +
+INFO: 2022/08/13 12:02:40.049228     symbolx
+INFO: 2022/08/13 12:02:40.049241     looking up symbolx
+INFO: 2022/08/13 12:02:40.049254      ...+
+INFO: 2022/08/13 12:02:40.049268      ...let
+INFO: 2022/08/13 12:02:40.049281      found inlet
+INFO: 2022/08/13 12:02:40.049295     evaluating4with [0] children
+INFO: 2022/08/13 12:02:40.049309       literal:4
+INFO: 2022/08/13 12:02:40.049323     literal:1
+INFO: 2022/08/13 12:02:40.049342    val:5
+INFO: 2022/08/13 12:02:40.049354 val: 5
+INFO: 2022/08/13 12:02:40.049367 
+INFO: 2022/08/13 12:02:40.049380 Parsing program:(let x 4 (let func + (func x 1))
+INFO: 2022/08/13 12:02:40.049392 Tokenizing...
+INFO: 2022/08/13 12:02:40.049417 Reading Expressions...
+INFO: 2022/08/13 12:02:40.049437 Logging...
+INFO: 2022/08/13 12:02:40.049450 function:let
+INFO: 2022/08/13 12:02:40.049464   symbol:x
+INFO: 2022/08/13 12:02:40.049478   literal:4
+INFO: 2022/08/13 12:02:40.049491   function:let
+INFO: 2022/08/13 12:02:40.049505     symbol:func
+INFO: 2022/08/13 12:02:40.049519     function:+
+INFO: 2022/08/13 12:02:40.049533     symbol:func
+INFO: 2022/08/13 12:02:40.049547       symbol:x
+INFO: 2022/08/13 12:02:40.049561       literal:1
+INFO: 2022/08/13 12:02:40.049574 Evaluating...
+INFO: 2022/08/13 12:02:40.049587 function: let
+INFO: 2022/08/13 12:02:40.049602 definingx=literal4
+INFO: 2022/08/13 12:02:40.049615   function: let
+INFO: 2022/08/13 12:02:40.049630   definingfunc=function+
+INFO: 2022/08/13 12:02:40.049644     symbolfunc
+INFO: 2022/08/13 12:02:40.049658     looking up symbolfunc
+INFO: 2022/08/13 12:02:40.049671      ...let
+INFO: 2022/08/13 12:02:40.049684      found inlet
+INFO: 2022/08/13 12:02:40.049698     evaluating+with [2] children
+INFO: 2022/08/13 12:02:40.049712       function: +
+INFO: 2022/08/13 12:02:40.049726         symbolx
+INFO: 2022/08/13 12:02:40.049739         looking up symbolx
+INFO: 2022/08/13 12:02:40.049752          ...func
+INFO: 2022/08/13 12:02:40.049766          ...let
+INFO: 2022/08/13 12:02:40.049779          ...let
+INFO: 2022/08/13 12:02:40.049792          found inlet
+INFO: 2022/08/13 12:02:40.049805         evaluating4with [0] children
+INFO: 2022/08/13 12:02:40.049819           literal:4
+INFO: 2022/08/13 12:02:40.049832         literal:1
+INFO: 2022/08/13 12:02:40.049846        val:5
+INFO: 2022/08/13 12:02:40.049859 val: 5
+INFO: 2022/08/13 12:02:40.049871 
+INFO: 2022/08/13 12:02:40.049884 Parsing program:(let x + (x 1 1))
+INFO: 2022/08/13 12:02:40.049897 Tokenizing...
+INFO: 2022/08/13 12:02:40.049913 Reading Expressions...
+INFO: 2022/08/13 12:02:40.049929 Logging...
+INFO: 2022/08/13 12:02:40.049942 function:let
+INFO: 2022/08/13 12:02:40.049956   symbol:x
+INFO: 2022/08/13 12:02:40.049969   function:+
+INFO: 2022/08/13 12:02:40.049983   symbol:x
+INFO: 2022/08/13 12:02:40.049998     literal:1
+INFO: 2022/08/13 12:02:40.050012     literal:1
+INFO: 2022/08/13 12:02:40.050025 Evaluating...
+INFO: 2022/08/13 12:02:40.050038 function: let
+INFO: 2022/08/13 12:02:40.050052 definingx=function+
+INFO: 2022/08/13 12:02:40.050077   symbolx
+INFO: 2022/08/13 12:02:40.050091   looking up symbolx
+INFO: 2022/08/13 12:02:40.050104    ...let
+INFO: 2022/08/13 12:02:40.050117    found inlet
+INFO: 2022/08/13 12:02:40.050131   evaluating+with [2] children
+INFO: 2022/08/13 12:02:40.050144     function: +
+INFO: 2022/08/13 12:02:40.050158       literal:1
+INFO: 2022/08/13 12:02:40.050171       literal:1
+INFO: 2022/08/13 12:02:40.050183      val:2
+INFO: 2022/08/13 12:02:40.050196 val: 2
+INFO: 2022/08/13 12:02:40.050208 
+INFO: 2022/08/13 12:02:40.050221 Parsing program:((lambda (concat x) (+ x 1)) 1)
+INFO: 2022/08/13 12:02:40.050234 Tokenizing...
+INFO: 2022/08/13 12:02:40.050258 Reading Expressions...
+INFO: 2022/08/13 12:02:40.050279 Logging...
+INFO: 2022/08/13 12:02:40.050291 function:lambda
+INFO: 2022/08/13 12:02:40.050305   function:concat
+INFO: 2022/08/13 12:02:40.050319     symbol:x
+INFO: 2022/08/13 12:02:40.050333   function:+
+INFO: 2022/08/13 12:02:40.050347     symbol:x
+INFO: 2022/08/13 12:02:40.050360     literal:1
+INFO: 2022/08/13 12:02:40.050374   literal:1
+INFO: 2022/08/13 12:02:40.050387 Evaluating...
+INFO: 2022/08/13 12:02:40.050400 function: lambda
+INFO: 2022/08/13 12:02:40.050414   function: concat
+INFO: 2022/08/13 12:02:40.050439   concatanating1children
+INFO: 2022/08/13 12:02:40.050454     symbolx
+INFO: 2022/08/13 12:02:40.050468     looking up symbolx
+INFO: 2022/08/13 12:02:40.050481      ...concat
+INFO: 2022/08/13 12:02:40.050494      ...lambda
+INFO: 2022/08/13 12:02:40.050507      unknown symbolx, returning as-is
+INFO: 2022/08/13 12:02:40.050521   literal:1
+INFO: 2022/08/13 12:02:40.050550   function: +
+INFO: 2022/08/13 12:02:40.050566     symbolx
+INFO: 2022/08/13 12:02:40.050579     looking up symbolx
+INFO: 2022/08/13 12:02:40.050592      ...+
+INFO: 2022/08/13 12:02:40.050606      found in+
+INFO: 2022/08/13 12:02:40.050619     evaluating1with [0] children
+INFO: 2022/08/13 12:02:40.050633       literal:1
+INFO: 2022/08/13 12:02:40.050646     literal:1
+INFO: 2022/08/13 12:02:40.050659    val:2
+INFO: 2022/08/13 12:02:40.050673 val: 2
+INFO: 2022/08/13 12:02:40.050685 
+INFO: 2022/08/13 12:02:40.050698 Parsing program:(+ x 1 )
+INFO: 2022/08/13 12:02:40.050710 Tokenizing...
+INFO: 2022/08/13 12:02:40.050726 Reading Expressions...
+INFO: 2022/08/13 12:02:40.050741 Logging...
+INFO: 2022/08/13 12:02:40.050754 function:+
+INFO: 2022/08/13 12:02:40.050768   symbol:x
+INFO: 2022/08/13 12:02:40.050781   literal:1
+INFO: 2022/08/13 12:02:40.050795 Evaluating...
+INFO: 2022/08/13 12:02:40.050808 function: +
+INFO: 2022/08/13 12:02:40.050833   symbolx
+INFO: 2022/08/13 12:02:40.050848   looking up symbolx
+INFO: 2022/08/13 12:02:40.050861    ...+
+INFO: 2022/08/13 12:02:40.050874    unknown symbolx, returning as-is
+INFO: 2022/08/13 12:02:40.050899 strconv.Atoi: parsing "x": invalid syntax
+INFO: 2022/08/13 12:02:40.050919 
+INFO: 2022/08/13 12:02:40.050943 Parsing program:
+	 (let subtract-one 
+		(lambda 
+			(concat x) 
+			(- x 1)) 
+		(+ 1 (subtract-one 3)))
+INFO: 2022/08/13 12:02:40.050972 Tokenizing...
+INFO: 2022/08/13 12:02:40.050999 Reading Expressions...
+INFO: 2022/08/13 12:02:40.051018 Logging...
+INFO: 2022/08/13 12:02:40.051029 function:let
+INFO: 2022/08/13 12:02:40.051039   symbol:subtract-one
+INFO: 2022/08/13 12:02:40.051048   function:lambda
+INFO: 2022/08/13 12:02:40.051059     function:concat
+INFO: 2022/08/13 12:02:40.051070       symbol:x
+INFO: 2022/08/13 12:02:40.051084     function:-
+INFO: 2022/08/13 12:02:40.051098       symbol:x
+INFO: 2022/08/13 12:02:40.051112       literal:1
+INFO: 2022/08/13 12:02:40.051126   function:+
+INFO: 2022/08/13 12:02:40.051139     literal:1
+INFO: 2022/08/13 12:02:40.051153     symbol:subtract-one
+INFO: 2022/08/13 12:02:40.051167       literal:3
+INFO: 2022/08/13 12:02:40.051180 Evaluating...
+INFO: 2022/08/13 12:02:40.051192 function: let
+INFO: 2022/08/13 12:02:40.051207 definingsubtract-one=functionlambda
+INFO: 2022/08/13 12:02:40.051220   function: +
+INFO: 2022/08/13 12:02:40.051234     literal:1
+INFO: 2022/08/13 12:02:40.051248     symbolsubtract-one
+INFO: 2022/08/13 12:02:40.051261     looking up symbolsubtract-one
+INFO: 2022/08/13 12:02:40.051283      ...+
+INFO: 2022/08/13 12:02:40.051297      ...let
+INFO: 2022/08/13 12:02:40.051311      found inlet
+INFO: 2022/08/13 12:02:40.051325     evaluatinglambdawith [3] children
+INFO: 2022/08/13 12:02:40.051339       function: lambda
+INFO: 2022/08/13 12:02:40.051352         function: concat
+INFO: 2022/08/13 12:02:40.051366         concatanating1children
+INFO: 2022/08/13 12:02:40.051379           symbolx
+INFO: 2022/08/13 12:02:40.051393           looking up symbolx
+INFO: 2022/08/13 12:02:40.051405            ...concat
+INFO: 2022/08/13 12:02:40.051418            ...lambda
+INFO: 2022/08/13 12:02:40.051431            ...let
+INFO: 2022/08/13 12:02:40.051444            unknown symbolx, returning as-is
+INFO: 2022/08/13 12:02:40.051458         literal:3
+INFO: 2022/08/13 12:02:40.051472         function: -
+INFO: 2022/08/13 12:02:40.051485         subtracting
+INFO: 2022/08/13 12:02:40.051498           symbolx
+INFO: 2022/08/13 12:02:40.051511           looking up symbolx
+INFO: 2022/08/13 12:02:40.051524            ...-
+INFO: 2022/08/13 12:02:40.051537            found in-
+INFO: 2022/08/13 12:02:40.051550           evaluating3with [0] children
+INFO: 2022/08/13 12:02:40.051564             literal:3
+INFO: 2022/08/13 12:02:40.051577           literal:1
+INFO: 2022/08/13 12:02:40.051591    val:3
+INFO: 2022/08/13 12:02:40.051604 val: 3
+INFO: 2022/08/13 12:02:40.051616 
+INFO: 2022/08/13 12:02:40.051629 Parsing program:
+		(let x 
+			(if (eq 1 0) + -) 
+			(x 1 1))
+INFO: 2022/08/13 12:02:40.051651 Tokenizing...
+INFO: 2022/08/13 12:02:40.051678 Reading Expressions...
+INFO: 2022/08/13 12:02:40.051705 Logging...
+INFO: 2022/08/13 12:02:40.051719 function:let
+INFO: 2022/08/13 12:02:40.051733   symbol:x
+INFO: 2022/08/13 12:02:40.051747   function:if
+INFO: 2022/08/13 12:02:40.051761     function:eq
+INFO: 2022/08/13 12:02:40.051775       literal:1
+INFO: 2022/08/13 12:02:40.051788       literal:0
+INFO: 2022/08/13 12:02:40.051802     function:+
+INFO: 2022/08/13 12:02:40.051816     function:-
+INFO: 2022/08/13 12:02:40.051829   symbol:x
+INFO: 2022/08/13 12:02:40.051843     literal:1
+INFO: 2022/08/13 12:02:40.051857     literal:1
+INFO: 2022/08/13 12:02:40.051870 Evaluating...
+INFO: 2022/08/13 12:02:40.051883 function: let
+INFO: 2022/08/13 12:02:40.051898 definingx=functionif
+INFO: 2022/08/13 12:02:40.051911   symbolx
+INFO: 2022/08/13 12:02:40.051924   looking up symbolx
+INFO: 2022/08/13 12:02:40.051938    ...let
+INFO: 2022/08/13 12:02:40.051951    found inlet
+INFO: 2022/08/13 12:02:40.051965   evaluatingifwith [5] children
+INFO: 2022/08/13 12:02:40.051978     function: if
+INFO: 2022/08/13 12:02:40.051992       function: eq
+INFO: 2022/08/13 12:02:40.052004       equalizing
+INFO: 2022/08/13 12:02:40.052017         literal:1
+INFO: 2022/08/13 12:02:40.052030         literal:0
+INFO: 2022/08/13 12:02:40.052043        val:false
+INFO: 2022/08/13 12:02:40.052056 testing false
+INFO: 2022/08/13 12:02:40.052069      val:if(false)
+INFO: 2022/08/13 12:02:40.052083       function: -
+INFO: 2022/08/13 12:02:40.052095 val: -
+INFO: 2022/08/13 12:02:40.052108 
+INFO: 2022/08/13 12:02:40.052120 Parsing program:((if (eq 1 0) + -)  1 0)
+INFO: 2022/08/13 12:02:40.052132 Tokenizing...
+INFO: 2022/08/13 12:02:40.052150 Reading Expressions...
+INFO: 2022/08/13 12:02:40.052176 Logging...
+INFO: 2022/08/13 12:02:40.052194 function:if
+INFO: 2022/08/13 12:02:40.052209   function:eq
+INFO: 2022/08/13 12:02:40.052222     literal:1
+INFO: 2022/08/13 12:02:40.052236     literal:0
+INFO: 2022/08/13 12:02:40.052249   function:+
+INFO: 2022/08/13 12:02:40.052263   function:-
+INFO: 2022/08/13 12:02:40.052277   literal:1
+INFO: 2022/08/13 12:02:40.052290   literal:0
+INFO: 2022/08/13 12:02:40.052304 Evaluating...
+INFO: 2022/08/13 12:02:40.052317 function: if
+INFO: 2022/08/13 12:02:40.052331   function: eq
+INFO: 2022/08/13 12:02:40.052344   equalizing
+INFO: 2022/08/13 12:02:40.052357     literal:1
+INFO: 2022/08/13 12:02:40.052370     literal:0
+INFO: 2022/08/13 12:02:40.052383    val:false
+INFO: 2022/08/13 12:02:40.052396 testing false
+INFO: 2022/08/13 12:02:40.052409  val:if(false)
+INFO: 2022/08/13 12:02:40.052433   function: -
+INFO: 2022/08/13 12:02:40.052447 val: -
+INFO: 2022/08/13 12:02:40.052459 
+INFO: 2022/08/13 12:02:40.052480 Parsing program:
+	(let f
+		(lambda 
+			(concat x)
+			(+ x 1))
+		(+ (f 2) (f 3)))
+INFO: 2022/08/13 12:02:40.052507 Tokenizing...
+INFO: 2022/08/13 12:02:40.052534 Reading Expressions...
+INFO: 2022/08/13 12:02:40.052556 Logging...
+INFO: 2022/08/13 12:02:40.052568 function:let
+INFO: 2022/08/13 12:02:40.052577   symbol:f
+INFO: 2022/08/13 12:02:40.052586   function:lambda
+INFO: 2022/08/13 12:02:40.052595     function:concat
+INFO: 2022/08/13 12:02:40.052609       symbol:x
+INFO: 2022/08/13 12:02:40.052618     function:+
+INFO: 2022/08/13 12:02:40.052631       symbol:x
+INFO: 2022/08/13 12:02:40.052645       literal:1
+INFO: 2022/08/13 12:02:40.052660   function:+
+INFO: 2022/08/13 12:02:40.052674     symbol:f
+INFO: 2022/08/13 12:02:40.052688       literal:2
+INFO: 2022/08/13 12:02:40.052702     symbol:f
+INFO: 2022/08/13 12:02:40.052716       literal:3
+INFO: 2022/08/13 12:02:40.052730 Evaluating...
+INFO: 2022/08/13 12:02:40.052742 function: let
+INFO: 2022/08/13 12:02:40.052757 definingf=functionlambda
+INFO: 2022/08/13 12:02:40.052771   function: +
+INFO: 2022/08/13 12:02:40.052784     symbolf
+INFO: 2022/08/13 12:02:40.052797     looking up symbolf
+INFO: 2022/08/13 12:02:40.052810      ...+
+INFO: 2022/08/13 12:02:40.052822      ...let
+INFO: 2022/08/13 12:02:40.052836      found inlet
+INFO: 2022/08/13 12:02:40.052850     evaluatinglambdawith [3] children
+INFO: 2022/08/13 12:02:40.052863       function: lambda
+INFO: 2022/08/13 12:02:40.052876         function: concat
+INFO: 2022/08/13 12:02:40.052891         concatanating1children
+INFO: 2022/08/13 12:02:40.052904           symbolx
+INFO: 2022/08/13 12:02:40.052917           looking up symbolx
+INFO: 2022/08/13 12:02:40.052930            ...concat
+INFO: 2022/08/13 12:02:40.052942            ...lambda
+INFO: 2022/08/13 12:02:40.052955            ...let
+INFO: 2022/08/13 12:02:40.052969            unknown symbolx, returning as-is
+INFO: 2022/08/13 12:02:40.052983         literal:2
+INFO: 2022/08/13 12:02:40.052997         function: +
+INFO: 2022/08/13 12:02:40.053010           symbolx
+INFO: 2022/08/13 12:02:40.053023           looking up symbolx
+INFO: 2022/08/13 12:02:40.053036            ...+
+INFO: 2022/08/13 12:02:40.053049            found in+
+INFO: 2022/08/13 12:02:40.053062           evaluating2with [0] children
+INFO: 2022/08/13 12:02:40.053076             literal:2
+INFO: 2022/08/13 12:02:40.053089           literal:1
+INFO: 2022/08/13 12:02:40.053101          val:3
+INFO: 2022/08/13 12:02:40.053115     symbolf
+INFO: 2022/08/13 12:02:40.053128     looking up symbolf
+INFO: 2022/08/13 12:02:40.053140      ...+
+INFO: 2022/08/13 12:02:40.053153      ...let
+INFO: 2022/08/13 12:02:40.053166      found inlet
+INFO: 2022/08/13 12:02:40.053179     evaluatinglambdawith [3] children
+INFO: 2022/08/13 12:02:40.053192       function: lambda
+INFO: 2022/08/13 12:02:40.053206         function: concat
+INFO: 2022/08/13 12:02:40.053219         concatanating1children
+INFO: 2022/08/13 12:02:40.053233           symbolx
+INFO: 2022/08/13 12:02:40.053246           looking up symbolx
+INFO: 2022/08/13 12:02:40.053260            ...concat
+INFO: 2022/08/13 12:02:40.053273            ...lambda
+INFO: 2022/08/13 12:02:40.053286            ...let
+INFO: 2022/08/13 12:02:40.053299            unknown symbolx, returning as-is
+INFO: 2022/08/13 12:02:40.053312         literal:3
+INFO: 2022/08/13 12:02:40.053326         function: +
+INFO: 2022/08/13 12:02:40.053339           symbolx
+INFO: 2022/08/13 12:02:40.053352           looking up symbolx
+INFO: 2022/08/13 12:02:40.053365            ...+
+INFO: 2022/08/13 12:02:40.053378            found in+
+INFO: 2022/08/13 12:02:40.053391           evaluating3with [0] children
+INFO: 2022/08/13 12:02:40.053404             literal:3
+INFO: 2022/08/13 12:02:40.053418           literal:1
+INFO: 2022/08/13 12:02:40.053430          val:4
+INFO: 2022/08/13 12:02:40.053444    val:7
+INFO: 2022/08/13 12:02:40.053456 val: 7
+INFO: 2022/08/13 12:20:27.110778 logging initalized
+INFO: 2022/08/13 12:20:32.669693 logging initalized
+INFO: 2022/08/13 12:21:14.662177 logging initalized
+INFO: 2022/08/13 12:21:19.000269 logging initalized
+INFO: 2022/08/13 12:21:19.000452 
+INFO: 2022/08/13 12:21:19.000486 Parsing program:(+ 1 2)
+
+INFO: 2022/08/13 12:21:19.000508 Tokenizing...
+INFO: 2022/08/13 12:21:19.000546 Reading Expressions...
+INFO: 2022/08/13 12:21:19.000580 Logging...
+INFO: 2022/08/13 12:21:19.000618 function:+
+INFO: 2022/08/13 12:21:19.000646   literal:1
+INFO: 2022/08/13 12:21:19.000666   literal:2
+INFO: 2022/08/13 12:21:19.000684 Evaluating...
+INFO: 2022/08/13 12:21:19.000703 function: +
+INFO: 2022/08/13 12:21:19.000724   literal:1
+INFO: 2022/08/13 12:21:19.000744   literal:2
+INFO: 2022/08/13 12:21:19.000763  val:3
+INFO: 2022/08/13 12:21:19.000785 val: 3
+INFO: 2022/08/13 14:47:56.928485 logging initalized
+INFO: 2022/08/13 14:47:56.928660 
+INFO: 2022/08/13 14:47:56.928684 Parsing program:(+ 1 2)
+
+INFO: 2022/08/13 14:47:56.928694 Tokenizing...
+INFO: 2022/08/13 14:47:56.928718 Reading Expressions...
+INFO: 2022/08/13 14:47:56.928733 Logging...
+INFO: 2022/08/13 14:47:56.928762 function:+
+INFO: 2022/08/13 14:47:56.928790   literal:1
+INFO: 2022/08/13 14:47:56.928803   literal:2
+INFO: 2022/08/13 14:47:56.928812 Evaluating...
+INFO: 2022/08/13 14:47:56.928824 function: +
+INFO: 2022/08/13 14:47:56.928836   literal:1
+INFO: 2022/08/13 14:47:56.928848   literal:2
+INFO: 2022/08/13 14:47:56.928863  val:3
+INFO: 2022/08/13 14:47:56.928878 val: 3
