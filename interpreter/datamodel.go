@@ -19,3 +19,33 @@ type Node struct {
 	EvalFunc EvaluationFunc
 	Scope    map[string]*Node
 }
+
+
+// --- new approach ---
+
+type ExpressionType int
+
+const (
+	CellType  ExpressionType = 0
+	ValueType ExpressionType = 1
+)
+
+type Expression interface {
+	Type() ExpressionType
+}
+
+type Cell struct {
+	Head Expression
+	Tail Expression
+}
+
+func (c Cell) Type() ExpressionType {
+	return CellType
+}
+
+type Value struct {
+}
+
+func (c Value) Type() ExpressionType {
+	return ValueType
+}

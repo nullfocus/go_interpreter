@@ -13,13 +13,16 @@ func main() {
 	_log = lib.InitLogging()
 	interpreter.InitInterpreter(_log)
 
+	testInterpreter(_log)
+
+	return
+
 	filename := os.Args[1]
 
 	contents, _ := ioutil.ReadFile(filename)
 
 	Interpret(string(contents))
 
-	//testInterpreter(_log)
 }
 
 func testInterpreter(log lib.Logger) {
